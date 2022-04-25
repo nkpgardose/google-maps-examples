@@ -1,8 +1,8 @@
 /**
  * Generate suburb boundaries.
  */
-function generateSuburbBoundaries(map) {
-  map.data.loadGeoJson('https://gist.githubusercontent.com/nkpgardose/53f332978d79deb5b6d7298138659231/raw/873706144828152d7cabb5a537e5e30438cbcd7a/some-suburbs.json');
+function generateSurroundingSuburbBoundaries(map) {
+  const result = map.data.loadGeoJson('https://gist.githubusercontent.com/nkpgardose/53f332978d79deb5b6d7298138659231/raw/873706144828152d7cabb5a537e5e30438cbcd7a/some-suburbs.json');
 
   // Set the global styles.
   map.data.setStyle({
@@ -43,5 +43,5 @@ function initMap() {
     map: map,
   });
 
-  generateSuburbBoundaries(map);
+  generateSurroundingSuburbBoundaries(map);
 }
