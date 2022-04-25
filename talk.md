@@ -1,6 +1,6 @@
 # Google Maps Platform
 
-## Agenda 
+## Agenda
 
 * Show google maps locally!
 	* What is GCP(Google Cloud Platform)?
@@ -11,6 +11,6 @@
 	* Your first google map!
 * Pricing and how it works!
 * Examples(some resources too)
-* Some of my example
+* Some of my examples
 * Q&A
 * Yay!
